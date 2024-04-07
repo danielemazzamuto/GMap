@@ -11,6 +11,7 @@ type GoogleGeocodingResponse = {
   status: 'OK' | 'ZERO_RESULTS';
 }
 
+// declare google object to avoid typescript error, as google is not a module
 declare var google: any;
 
 function searchAddressHandler(event: Event) {
