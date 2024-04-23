@@ -19,3 +19,5 @@ To start the application, use the following command:
 ```bash
 npm start
 ```
+
+### Put your Google Maps KEY on the .env file
